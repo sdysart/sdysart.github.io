@@ -430,6 +430,7 @@ function Keyboard_android_ipa_keyboard()
                   {
                     "text": "🌀",
                     "id": "U_1f300",
+                    "sp": "1",
                     "nextlayer": "Diacritic"
                   }
                 ]
