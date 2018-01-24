@@ -431,7 +431,7 @@ function Keyboard_android_ipa_keyboard()
                     "text": "🌀",
                     "id": "T_diacritic",
                     "sp": "1",
-                    "nextlayer": "Diacritic"
+                    "nextlayer": "numeric"
                   }
                 ]
               },
