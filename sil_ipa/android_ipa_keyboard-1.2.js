@@ -425,15 +425,7 @@ function Keyboard_android_ipa_keyboard()
                 "text": "*Shift*",
                 "width": "110",
                 "sp": "1",
-                "nextlayer": "shift",
-                "sk": [
-                  {
-                    "text": "🌀",
-                    "id": "T_diacritic",
-                    "sp": "1",
-                    "nextlayer": "numeric"
-                  }
-                ]
+                "nextlayer": "shift"
               },
               {
                 "id": "K_Z",
@@ -606,6 +598,11 @@ function Keyboard_android_ipa_keyboard()
                 "nextlayer": "numeric"
               },
               {
+                "id": "T_Diacritic",
+                "text": "🌀",
+                "nextlayer": "numeric"
+              },
+              {
                 "id": "K_LOPT",
                 "text": "*Menu*",
                 "width": "120",
@@ -614,7 +611,7 @@ function Keyboard_android_ipa_keyboard()
               {
                 "id": "K_SPACE",
                 "text": "",
-                "width": "630",
+                "width": "510",
                 "sp": "0"
               },
               {
