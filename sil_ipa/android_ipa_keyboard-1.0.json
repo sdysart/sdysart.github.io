@@ -6,7 +6,7 @@
   },
   "keyboard" : {
     "id" : "android_ipa_keyboard 1.4",
-    "name" : "SIL IPA 1.0",
+    "name" : "SIL IPA 1.4",
     "filename" : "android_ipa_keyboard-1.4.js",
     "version" : "1.0",
     "font": {
