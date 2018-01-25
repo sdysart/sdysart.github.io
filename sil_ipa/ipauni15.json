@@ -1,0 +1,28 @@
+{
+  "options" : {
+    "device" : "any",
+    "keyboardBaseUri" : "https://sdysart.github.io/sil_ipa/",
+    "fontBaseUri" : "https://sdysart.github.io/sil_ipa/"
+  },
+  "keyboard" : {
+    "id" : "android_ipa_keyboard 1.5",
+    "name" : "SIL IPA 1.5",
+    "filename" : "ipauni15",
+    "version" : "1.5",
+    "font": {
+      "family":"SIL Doulos",
+      "source":"DoulosSIL-R.ttf"
+    },
+    "oskFont": {
+      "family":"SIL Doulos",
+      "source":"DoulosSIL-R.ttf"
+    },    
+    "lastModified" : "2016-07-17T14:18:54+00:00",
+    "languages" : [
+      {
+        "id" : "qaa",
+        "name" : "SIL IPA"
+      }
+    ]
+  }
+}
