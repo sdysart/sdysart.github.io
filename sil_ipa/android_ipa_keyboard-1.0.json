@@ -7,8 +7,8 @@
   "keyboard" : {
     "id" : "android_ipa_keyboard 1.4",
     "name" : "SIL IPA 1.4",
-    "filename" : "android_ipa_keyboard-1.4.js",
-    "version" : "1.0",
+    "filename" : "android_ipa_keyboard1.4.js",
+    "version" : "1.4",
     "font": {
       "family":"SIL Doulos",
       "source":"DoulosSIL-R.ttf"
