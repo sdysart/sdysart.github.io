@@ -7,7 +7,7 @@
   "keyboard" : {
     "id" : "android_ipa_keyboard 1.5",
     "name" : "SIL IPA 1.5",
-    "filename" : "ipauni15",
+    "filename" : "ipauni15.js",
     "version" : "1.5",
     "font": {
       "family":"SIL Doulos",
