@@ -5,9 +5,9 @@
     "fontBaseUri" : "https://sdysart.github.io/sil_ipa/"
   },
   "keyboard" : {
-    "id" : "android_ipa_keyboard 1.5",
-    "name" : "SIL IPA 1.5",
-    "filename" : "ipauni15.js",
+    "id" : "ipauni15",
+    "name" : "IPA Uni 1.5",
+    "filename" : "ipauni15-1.5.js",
     "version" : "1.5",
     "font": {
       "family":"SIL Doulos",
