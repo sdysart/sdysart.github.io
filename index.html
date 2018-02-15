@@ -2,13 +2,60 @@
 <html>
     <head>
         <title>Scott's Test Page for Keyman keyboards</title>
-    </head>    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    </head>
     <body>
-    <h2>SIL IPA Touch Layout</h2>
-        <div>
-          v1.5 <a href='keyman://localhost/open?direct=true&url=https://sdysart.github.io/sil_ipa/ipauni15.json'>
-            IPA Uni15 15 Feb 11:32</a>
-        </div>
+
+    <br/>
+    <div class="jumbotron">
+        <h1>Test Page for Keyman Keyboards</h1>
+    </div>
+
+    <div class="container">
+        <h3 id="sil-ipa-touch"> SIL IPA Touch Layout </h3>
+        <p>
+            This is an effort to prepare a touch layout for the 
+            <a href="https://drive.google.com/file/d/1aTTV5Qe6JRAv-eKVCmNhZfS44DAN5S3p/view">SIL IPA Unicode keyboard</a>
+            that Martin Hosken made for Keyman Desktop.
+        </p>
+        <p>
+            For characters that were typed with a base character + a special character, I was able to make that secondary character available by 'long pressing' the base character. Long pressing is simply holding your finger on the character for a slightly longer time then normal.
+        </p>    
+        <p>
+            For example, instead of typing <kbd>></kbd> + <kbd>n</kbd> to get <code>ŋ</code>, 
+            you simply long press <kbd>n</kbd> to see <code>ŋ</code> 
+            (as well as <code>ɳ</code>, <code>ɲ</code>, and <code>ɴ</code>) as options to choose from.
+        </p>
+        <p>
+            Please provide 
+            <a href="https://docs.google.com/spreadsheets/d/1t-_D6ijCpQzAN7JY_3ggjqTBy4queseLRlefqdYW1zo/edit?usp=sharing">
+                feedback
+            </a>, particularly on the Diacritic and Tone layers
+        </p>
+        <p>
+            After you've installed Keyman for iOS or Keyman for Android, clicking the link below should open those apps and install the keyboard.
+        </p>
+        <p>
+            <i>Note: there is a known problem where the keyboard fails to install on older Android devices like 4.4 Kit Kat.</i>
+        </p>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="card-header">
+                    <b>v1.5</b>
+                </div>
+                <div class="card-body">
+                    <a href="keyman://localhost/open?direct=true&url=https://sdysart.github.io/sil_ipa/ipauni15.json" class="btn btn-primary">ipauni15 Keyboard</a><br/>Uploaded: 15 Feb 11:32
+                </div>
+            </div>
+        </div>    
+    </div>
+    
     </body>
 </html>    
     
